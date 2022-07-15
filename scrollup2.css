@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #212529;
+    font-family: sans-serif;
+
+}
+
+section {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.segunda {
+    background-color:   #073666;
+}
+
+.terceira {
+    background-color:  #3c5f83;
+}
+
+.quarta {
+    background-color:  #35373a;
+}
+
+
+.to-top {
+
+    background-color: #250025;
+    padding: 10px;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+
+    font-weight: bold;
+
+    opacity: 0;
+
+    transition: all .4s;
+}
+
+
+.to-top:hover {
+    background-color: #ffffff;
+    color: #250025;
+
+}
+
+.to-top.active {
+    opacity: 1;
+}
